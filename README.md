@@ -41,5 +41,29 @@ Exibição: Formata o resultado final para o padrão pt-BR.
 Para alterar os serviços ou preços, basta modificar os valores no arquivo index.html:
 <img width="548" height="93" alt="html-projeto-orcamento" src="https://github.com/user-attachments/assets/850836a9-3fab-406d-820b-f7daa1a113fe" />
 
+# 🚀 Como Executar o Projeto
+Clone o repositório:
+
+git clone https://github.com/merenciomarcos-ux/desafio02-calculadora-de-orcamento.git
+
+Acesse a pasta do projeto.
+
+Abra o arquivo index.html em qualquer navegador moderno.
+
+Interaja com os cards: Selecione os serviços para visualizar o cálculo do total em tempo real e os efeitos visuais de seleção.
+
+# 📌 Boas Práticas Aplicadas
+Separação clara de responsabilidades: Arquivos distintos para HTML, CSS e JS, facilitando a manutenção.
+
+Código JavaScript organizado e legível: Uso de nomes de funções e variáveis declarativos, além de comentários explicativos sobre a lógica de soma.
+
+Feedback visual imediato ao usuário: Atualização instantânea de valores, cores e tooltips conforme a interação.
+
+Interface limpa e intuitiva: Design focado na experiência do usuário (UX) e facilidade de uso.
+
+Estrutura de pastas padronizada: Organização lógica dos ativos do projeto.
+
+README claro, objetivo e bem documentado: Documentação completa para facilitar o entendimento do projeto por outros desenvolvedores.
+
 # 📄 Licença
 Este projeto é livre para uso educacional e aprendizado.
