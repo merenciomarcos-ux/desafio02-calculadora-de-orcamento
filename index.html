@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Orçamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <div class="container">
+            <header class="header">
+                <h1>Faça seu Orçamento</h1>
+                <p class="subtitle">Selecione os serviços desejados</p>
+            </header>
+
+            <form id="budget-form">
+                <label class="service-card" data-tooltip="Clique para adicionar serviço ao orçamento">
+                    <input type="checkbox" value="2700" class="service-checkbox">
+                    <div class="card-content">
+                        <span>Criação de Site</span>
+                        <span class="service-price">R$ 2.700,00</span>
+                    </div>
+                </label>
+
+                <label class="service-card" data-tooltip="Clique para adicionar serviço ao orçamento">
+                    <input type="checkbox" value="570" class="service-checkbox">
+                    <div class="card-content">
+                        <span>Hospedagem(anual) de site</span>
+                        <span class="service-price">R$ 570,00</span>
+                    </div>
+                </label>
+
+                <label class="service-card" data-tooltip="Clique para adicionar serviço ao orçamento">
+                    <input type="checkbox" value="40" class="service-checkbox">
+                    <div class="card-content">
+                        <span>Registro de Domínio</span>
+                        <span class="service-price">R$ 40,00</span>
+                    </div>
+                </label>
+            </form>
+
+            <footer class="total-container">
+                <span>Valor Total:</span>
+                <span id="total-value">R$ 0,00</span>
+            </footer>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
